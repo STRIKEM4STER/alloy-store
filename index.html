@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLOY STORE</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" href="./images/alloy icon.png">
+    <style>
+        *{
+            font-family: "Inter Tight", sans-serif;
+        }
+    </style>
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+     
+    <!-- font aweasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<!-- navbar and home -->
+<body class="bg-gradient-to-b from-gray-400 to-gray-900">
+    <div class=" w-full h-screen bg-[url('https://shop.apollotyres.com/images/uploaded/aluminum.jpeg')] bg-no-repeat bg-cover" >
+        <nav class="w-full bg-zinc-950 bg-opacity-80 p-2 flex flex-col md:flex-row justify-center items-center">
+            <img src="./images/alloy store logo.png" alt="error-loading" height="150px" width="150px">
+            <ul class="flex text-white flex-col md:flex-row justify-evenly w-full">
+                <li class="text-xl hover:text-cyan-300 hover:cursor-pointer">
+                    <a href="#home">HOME</a>
+                </li>
+                <li class="text-xl hover:text-cyan-300 hover:cursor-pointer">
+                    <a href="#products">PRODUCTS</a>
+                </li>
+                <li class="text-xl hover:text-cyan-300 hover:cursor-pointer">
+                    <a href="#about">ABOUT</a>
+                </li>
+                <li class="text-xl hover:text-cyan-300 hover:cursor-pointer">
+                    <a href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex justify-center w-full flex-col pt-56 px-3">
+            <h1 class="text-white md:text-8xl text-6xl">ALLOY STORE</h1>
+            <p class="text-white md:text-3xl text-xl mt-2 ">"Discover the Perfect Alloy Wheels for Your Ride!"</p>
+        </div>
+    </div>
+    <!-- products -->
+    <div id="products" class="w-full flex justify-center items-center flex-col">
+        <div class="bg-gradient-to-r from-cyan-500 to-blue-500 to-black rounded-l-full rounded-r-full px-4 py-2 mt-20 inline-block"><h1 class="text-white text-4xl">PRODUCTS</h1></div>
+
+        <div class="mt-40 md:px-20 px-14 md:grid md:grid-cols-3 w-full gap-6 mb-10">
+            <div class="bg-zinc-900 rounded-xl shadow-lg p-6 flex flex-col items-center text-center mb-10">
+                <img src="https://img.freepik.com/premium-photo/blue-rim-alloy-wheels_618468-11198.jpg" alt="Product-1" class="rounded-md mb-4 h-48 object-cover">
+                <h2 class="text-2xl font-semibold text-white mb-2">Titanium Alloy Wheels</h2>
+                <p class="text-gray-300">These wheels offer high strength and lightweight performance,.</p>
+                <a href="#ti">
+                    <button class="mt-4 px-6 py-2 bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 transition duration-300">
+                        VIEW
+                    </button>
+                </a>
+            </div>
+            
+            <div class="bg-zinc-900 rounded-xl shadow-lg p-6 flex flex-col items-center text-center mb-10">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf09497546fa642bab93f58e27978e5be2.jpg_300x300.jpg" alt="Product-1" class="rounded-md mb-4 h-48 object-cover">
+                <h2 class="text-2xl font-semibold text-white mb-2">Custom Alloy Wheels</h2>
+                <p class="text-gray-300">Wheels that are designed specifically for individual preferences in style, size, and fitment.</p>
+                <a href="#cu">
+                    <button class="mt-4 px-6 py-2 bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 transition duration-300">
+                        VIEW
+                    </button>
+                </a>
+            </div>
+
+            <div class="bg-zinc-900 rounded-xl shadow-lg p-6 flex flex-col items-center text-center mb-10">
+                <img src="https://lf-ind.com/cdn/shop/files/MF13.8.1_2000x.jpg?v=1708982642" alt="Product-1" class="rounded-md mb-4 h-48 object-cover">
+                <h2 class="text-2xl font-semibold text-white mb-2">Forged Alloy Wheels</h2>
+                <p class="text-gray-300">Made from a single piece of metal that is heated and shaped under pressure.</p>
+                <a href="#fo">
+                    <button class="mt-4 px-6 py-2 bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 transition duration-300">
+                        VIEW
+                    </button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Titanium alloy wheel section -->
+    <div id="ti" class="py-10 w-full flex justify-center items-center flex-col">
+        <div class="bg-gradient-to-r from-cyan-500 to-blue-500 to-black rounded-l-full rounded-r-full px-4 py-2 mt-20 inline-block mb-10">
+            <h1 class="text-white text-4xl font-semibold">Titanium Alloy Wheels</h1>
+        </div>
+    
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 md:px-20 px-4">
+            <!-- Wheel 1 -->
+            <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+                <img src="https://img.freepik.com/premium-photo/blue-rim-alloy-wheels_618468-11198.jpg" alt="Alloy Wheel 1" class="w-full h-48 object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+                </div>
+            </div>
+    
+        <!-- Wheel 2 -->
+        <div class="relative group">
+            <img src="https://static.alloywheelsdirect.net/images/wheels/23267-ml.jpg" class="w-full h-48 object-cover">
+            <div
+                class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+            </div>
+            </div>
+
+    
+            <!-- Wheel 3 -->
+            <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+                <img src="https://lf-ind.com/cdn/shop/files/MF13.8.1_2000x.jpg?v=1708982642" alt="Alloy Wheel 3" class="w-full h-48 object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+                </div>
+            </div>
+    
+            <!-- Wheel 4 -->
+            <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+                <img src="https://cdn4.wheelbasealloys.com/product-images/product-43189_70648_600.jpg" alt="Alloy Wheel 4" class="w-full h-48 object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+                </div>
+            </div>
+    
+            <!-- Wheel 5 -->
+            <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+                <img src="https://image.made-in-china.com/202f0j00wLEozRAhHKrG/Hot-Sale-off-Road-Car-Wheel-Aluminum-Alloy-Wheel-Rim-20X10-for-SUV-Car.webp" alt="Alloy Wheel 5" class="w-full h-48 object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+                </div>
+            </div>
+    
+            <!-- Wheel 6 -->
+            <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+                <img src="https://assets.volkswagen.com/is/image/cso/c82a0722331c053f3b9ceb10a463e925_20231109090420402?d2lkPTM1MA==" alt="Alloy Wheel 6" class="w-full h-48 object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+                </div>
+            </div>
+    
+            <!-- Wheel 7 -->
+            <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+                <img src="https://cdn.autostyle.co.za/wp-content/uploads/2024/01/29142305/82360844-bounty-titanium.jpg" alt="Alloy Wheel 7" class="w-full h-48 object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+                </div>
+            </div>
+    
+            <!-- Wheel 8 -->
+            <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+                <img src="https://mazdashop.ca/cdn/shop/products/FastEV-EV01-Alloy-Wheel-Titanium-16-17-18-19-20_22aa0f78-588e-46ed-b77f-3e7aa351fa98_1600x.jpg?v=1653938908" alt="Alloy Wheel 8" class="w-full h-48 object-cover">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Custom Alloy Wheels Section -->
+<div id="cu" class="py-10 w-full flex justify-center items-center flex-col">
+    <div class="bg-gradient-to-r from-cyan-500 to-blue-500 to-black rounded-l-full rounded-r-full px-4 py-2 mt-20 inline-block mb-10">
+        <h1 class="text-white text-4xl font-semibold">Custom Alloy Wheels</h1>
+    </div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 md:px-20 px-4">
+        <!-- Wheel 1 -->
+        <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+            <img src="https://www.wakefieldatv.com/wp-content/uploads/2016/05/1-5.jpg" alt="Custom Alloy Wheel 1" class="w-full h-48 object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+            </div>
+        </div>
+        <!-- Wheel 2 -->
+        <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+            <img src="https://rvrnwheel.com/cdn/shop/products/3-piece-custom-forged-wheels-series-rv-tr66-red-bmw-wheels-283070.png?v=1686810346" alt="Custom Alloy Wheel 2" class="w-full h-48 object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+            </div>
+        </div>
+        <!-- Wheel 3 -->
+        <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+            <img src="https://images.squarespace-cdn.com/content/v1/534c9f33e4b0c00d5960e0b0/1635480972165-W471AZXS15NVX79DIPPL/20200206_102447.jpg?format=500w" alt="Custom Alloy Wheel 3" class="w-full h-48 object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+            </div>
+        </div>
+        <!-- Wheel 4 -->
+        <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+            <img src="https://powermechengineering.com/wp-content/uploads/2022/04/27.jpg" alt="Custom Alloy Wheel 4" class="w-full h-48 object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Forged Alloy Wheels Section -->
+<div id="fo" class="py-10 w-full flex justify-center items-center flex-col">
+    <div class="bg-gradient-to-r from-cyan-500 to-blue-500 to-black rounded-l-full rounded-r-full px-4 py-2 mt-20 inline-block mb-10">
+        <h1 class="text-white text-4xl font-semibold">Forged Alloy Wheels</h1>
+    </div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 md:px-20 px-4">
+        <!-- Wheel 1 -->
+        <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+            <img src="https://brixtonforged.com/wp-content/uploads/2022/09/brixton-forged-pf14.jpg" alt="Forged Alloy Wheel 1" class="w-full h-48 object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+            </div>
+        </div>
+        <!-- Wheel 2 -->
+        <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+            <img src="https://i.pinimg.com/564x/a6/9b/61/a69b6112d10a1219fd00a39e68b911c3.jpg" alt="Forged Alloy Wheel 2" class="w-full h-48 object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+            </div>
+        </div>
+        <!-- Wheel 3 -->
+        <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+            <img src="https://autoid.co/cdn/shop/files/2forge-zf6-semi-forged-wheels-2forge-315418.jpg?v=1726654302" alt="Forged Alloy Wheel 3" class="w-full h-48 object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+            </div>
+        </div>
+        <!-- Wheel 4 -->
+        <div class="bg-zinc-900 rounded-lg overflow-hidden shadow-lg relative group">
+            <img src="https://pbforgedwheels.com/cdn/shop/files/PB_-_104_2_Piece_Forged_Wheel_800x.jpg?v=1715941934" alt="Forged Alloy Wheel 4" class="w-full h-48 object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">BUY</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- about section  -->
+
+<div id="about" class="container mx-auto px-4 py-8 w-full flex justify-center items-center flex-col">
+    <div class="border border-gray-300 rounded-lg p-6 w-full max-w-3xl w-full flex justify-center items-center flex-col">
+        <div class="bg-gradient-to-r from-cyan-500 to-blue-500 to-black rounded-l-full rounded-r-full px-4 py-2  inline-block mb-10">
+            <h2 class="text-3xl font-bold text-white text-center">About Us</h2>
+        </div>
+        <p class="text-lg text-white text-justify">
+            Welcome to Alloy Store! We specialize in providing high-quality alloy wheels that enhance your vehicle's performance and style. Our team is dedicated to helping you find the perfect wheels to elevate your driving experience. 
+        </p>
+    </div>
+</div>
+
+
+<!-- footer and contact -->
+<footer id="contact" class="bg-gray-950 text-white py-8">
+    <div class="max-w-xl mx-auto px-4 sm:px-6 lg:px-0">
+        <div class="flex justify-center items-center flex-col">
+           <div class="bg-gradient-to-r from-cyan-500 to-blue-500 to-black rounded-l-full rounded-r-full px-4 py-2  inline-block mb-10">
+                <h1 class="text-white text-2xl">CONTACT US</h1>
+               
+           </div>
+        </div>
+    
+        <form class="flex justify-center items-center flex-col w-full" action="">
+            <div class="py-3 w-full flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-2">
+                <div class="w-full md:w-6/12">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="text" class="w-full p-2 border border-gray-300 rounded" placeholder="Name" required>
+                </div>
+
+                <div class="w-full md:w-6/12">
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" class="w-full p-2 border border-gray-300 rounded" placeholder="Email" required>
+                </div>
+            </div>
+
+            <label for="message" class="sr-only">Message</label>
+            <textarea class="w-full h-44 p-2 border border-gray-300 rounded" placeholder="Message" required></textarea>
+
+            <button class="mt-5 p-2 border-2 border-white text-white bg-transparent hover:bg-cyan-300 hover:text-black transition duration-300">SEND MESSAGE</button>
+        </form>
+        
+        <div class="flex justify-center space-x-4 mb-4 mt-6">
+            <a href="#" class="text-gray-400 hover:text-cyan-300 transition-colors">
+                <i class="fab fa-facebook-f fa-2x"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-cyan-300 transition-colors">
+                <i class="fab fa-x fa-2x"></i> <!-- Changed to X icon -->
+            </a>
+            <a href="#" class="text-gray-400 hover:text-cyan-300 transition-colors">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+        </div>
+        
+
+        <div class="text-center">
+            <p class="text-sm">&copy; 2024 Alloy Store. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+</body>
+
+</html>
